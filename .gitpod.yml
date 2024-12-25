@@ -1,0 +1,9 @@
+# .gitpod.yml
+image:
+  file: .gitpod.Dockerfile
+
+# Optional: run tasks when the workspace starts
+tasks:
+  - name: Show a welcome message
+    init: figlet "Welcome to GitPod"
+    command: echo "Your custom environment is ready!"
